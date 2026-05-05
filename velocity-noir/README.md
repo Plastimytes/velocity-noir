@@ -25,6 +25,7 @@
 
 ## 🗂️ Project Structure
 
+
 ```
 velocity-noir/
 ├── src/
