@@ -1,10 +1,36 @@
 {
-  "devDependencies": {
-    "vite": "^8.0.10"
+  "name": "velocity-noir",
+  "version": "1.0.0",
+  "description": "A spiritual successor to the 2005 street-racing era. Gritty. High-contrast. Unforgiving.",
+  "main": "src/main.js",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0 --port 3000",
+    "build": "vite build",
+    "preview": "vite preview",
+    "android": "npm run build && npx cap sync android && npx cap open android",
+    "lint": "eslint src/"
   },
   "dependencies": {
-    "@capacitor/android": "^8.3.1",
+    "@capacitor/android": "^5.7.8",
     "@capacitor/cli": "^8.3.1",
-    "@capacitor/core": "^8.3.1"
-  }
+    "@capacitor/core": "^5.7.8",
+    "@capacitor/device": "^5.0.0",
+    "@capacitor/haptics": "^5.0.0",
+    "@capacitor/motion": "^5.0.0",
+    "gl-matrix": "^3.4.3"
+  },
+  "devDependencies": {
+    "eslint": "^8.0.0",
+    "terser": "^5.46.2",
+    "vite": "^5.0.0"
+  },
+  "keywords": [
+    "racing",
+    "game",
+    "android",
+    "webgl",
+    "mobile"
+  ],
+  "author": "Velocity Noir Team",
+  "license": "MIT"
 }
