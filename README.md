@@ -14,6 +14,7 @@
 
 **Velocity Noir** is a mobile street-racing game built with a custom WebGL/Canvas engine, packaged for Android via Capacitor. Inspired by the Black Edition aesthetic of 2005 — high-contrast, neon-wet asphalt, illegal street races, and a brutal cop pursuit system.
 
+
 ### Key Features
 
 - 🚗 **80–95 car roster** — JDM classics, Group B monsters, DTM touring legends
