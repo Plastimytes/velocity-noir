@@ -93,6 +93,7 @@ npm run build        # Production build
 npm run android      # Build + open in Android Studio
 ```
 
+
 ### Building the APK
 ```bash
 npm run build
